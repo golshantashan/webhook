@@ -1,0 +1,17 @@
+ساخت یک venv
+ورود به مسیر پروژه
+py -m venv .venv
+ بعد ساخته شدن پوشه .venv
+cd Scripts
+activate.bat
+
+*دستور مرحله قبل cd 
+    cd ..
+*دستور ساخت پکیج کتابخانه ها..ورود به مسیز پرژه
+    pip freeze > requirements.txt
+* مشاهده محتوای هر پوشه 
+   C:\Users\milad\Desktop>/TAB key 
+
+** requirements.txtنصب کل پکیج از روی فایل 
+    ورود به مسیر پروژه
+    pip install -r requirements.txt
